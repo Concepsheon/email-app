@@ -16,3 +16,5 @@ git clone
 Move to project folder and run ```npm install```
 
 Run mongo background and start app with ```npm start```
+
+App running at localhost:3000
