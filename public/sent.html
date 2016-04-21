@@ -1,0 +1,15 @@
+<table class='table table-striped'>
+    <thead>
+        <tr>
+            <th>To</th>
+            <th>Subject</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat='email in sentEmails'>
+            <td>{{email.to}}</td>
+            <td><a href="#/sent/{{email._id}}">{{email.subject}}</a></td>
+        </tr>
+    </tbody>
+</table>
+

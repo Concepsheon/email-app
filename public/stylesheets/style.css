@@ -1,0 +1,27 @@
+body {
+  padding: 50px;
+  font: 21px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+td a, td a:hover {
+  color:#F48238;
+  text-decoration: none;
+}
+
+
+.badge{
+  background: #F48238;
+}
+
+.email-container {
+  margin-top: 50px;
+}
+
+hr {
+  height: 2px;
+  background-color: black;
+}
+
+.nav li a {
+  color: #E3DBD7;
+}

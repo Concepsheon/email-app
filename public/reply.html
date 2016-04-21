@@ -1,0 +1,14 @@
+<form ng-submit="send()">
+    <div class='form-group'>
+        <label>Subject:</label>
+        <input class='form-control' type="text" name="subject" ng-model='subject'/>
+    </div>
+    <div class=form-group>
+        <label>To: </label>
+        <input class='form-control' type="email" name="to" ng-model="email.from"/>
+    </div>
+    <div class='form-group'>
+        <textarea class='form-control' name='body' ng-model='body' required></textarea>
+    </div>
+    <button class='btn btn-primary' type='Submit'>Sumbit</button>
+</form>

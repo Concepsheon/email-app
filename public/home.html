@@ -1,0 +1,15 @@
+<table class='table table-striped'>
+    <thead>
+        <tr>
+            <th>From</th>
+            <th>Subject</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat='email in emails' ng-if='email.trusted'>
+            <td>{{email.from}}</td>
+            <td><a href="#/emails/{{email._id}}">{{email.subject}}</a></td>
+        </tr>
+    </tbody>
+</table>
+
