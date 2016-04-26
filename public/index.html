@@ -15,11 +15,13 @@
 	<link rel="icon" href="data:;base64,=">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
 	<link rel='stylesheet' href='/stylesheets/style.css'>
-	<style>
-	[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
-      display: none !important;
-    }
-  </style>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/angularjs/1.5.0/angular-route.min.js"></script>
+        <script type="text/javascript" src="/javascripts/app.js"></script>
+        <script type="text/javascript" src="/javascripts/controller.js"></script>
+        <script type="text/javascript" src="/javascripts/factory.js"></script>
+        
   </head>
   <body ng-app="app">
     
@@ -34,11 +36,6 @@
     </nav>
     
     <div class='container email-container' ng-view></div>
-  
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/angularjs/1.5.0/angular-route.min.js"></script>
-    <script type="text/javascript" src="/javascripts/app.js"></script>
-    <script type="text/javascript" src="/javascripts/controller.js"></script>
-    <script type="text/javascript" src="/javascripts/factory.js"></script>
+    
   </body>
 </html>
