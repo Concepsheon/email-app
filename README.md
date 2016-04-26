@@ -11,7 +11,7 @@ Email model has a trusted property, which is a boolean, that sends an email to i
 
 Clone project
 ```
-git clone
+git clone https://github.com/Concepsheon/email-app.git
 ```
 Move to project folder and run ```npm install```
 
